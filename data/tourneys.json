@@ -1,0 +1,2067 @@
+[
+  {
+    "nombre": "The Big House 5",
+    "tid": 10001,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-4",
+    "fechaf": "2020-12-6",
+    "hora": "19:00",
+    "limit": 2000,
+    "cost": 30,
+    "place": "Online",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 2,
+    "gamelist": [
+      {
+        "jugador": 10001
+      },
+      {
+        "jugador": 10002
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #1",
+    "tid": 10002,
+    "admin": 10002,
+    "juego": 105,
+    "fechai": "2020-11-22",
+    "fechaf": "2020-11-24",
+    "hora": "8:29",
+    "limit": 125,
+    "cost": 33,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #2",
+    "tid": 10003,
+    "admin": 10003,
+    "juego": 105,
+    "fechai": "2020-2-8",
+    "fechaf": "2020-2-10",
+    "hora": "18:40",
+    "limit": 688,
+    "cost": 15,
+    "place": "Online",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://i.blogs.es/7e4889/why-super-smash-bros-melee-is-the-game-to-watch-at-evo-2016-409-1467897074/1366_2000.jpg",
+    "cantjug": 3,
+    "gamelist": [
+      {
+        "jugador": 10001
+      },
+      {
+        "jugador": 10002
+      },
+      {
+        "jugador": 10003
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #3",
+    "tid": 10004,
+    "admin": 10004,
+    "juego": 103,
+    "fechai": "2020-12-20",
+    "fechaf": "2020-12-22",
+    "hora": "15:47",
+    "limit": 543,
+    "cost": 60,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://pm1.narvii.com/7382/720d4d085b90a92d87497a9c6ee130dfe4fea2e4r1-855-351v2_uhq.jpg",
+    "cantjug": 4,
+    "gamelist": [
+      {
+        "jugador": 10001
+      },
+      {
+        "jugador": 10002
+      },
+      {
+        "jugador": 10003
+      },
+      {
+        "jugador": 10004
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #4",
+    "tid": 10005,
+    "admin": 10005,
+    "juego": 101,
+    "fechai": "2020-3-12",
+    "fechaf": "2020-3-14",
+    "hora": "16:8",
+    "limit": 848,
+    "cost": 93,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://as.com/meristation/imagenes/2020/02/06/noticias/1581000094_274876_1581000229_noticia_normal.jpg",
+    "cantjug": 5,
+    "gamelist": [
+      {
+        "jugador": 10001
+      },
+      {
+        "jugador": 10002
+      },
+      {
+        "jugador": 10003
+      },
+      {
+        "jugador": 10004
+      },
+      {
+        "jugador": 10005
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #5",
+    "tid": 10006,
+    "admin": 10006,
+    "juego": 106,
+    "fechai": "2020-7-12",
+    "fechaf": "2020-7-14",
+    "hora": "4:37",
+    "limit": 158,
+    "cost": 25,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://www.nintenderos.com/wp-content/uploads/2020/10/smash.jpg",
+    "cantjug": 6,
+    "gamelist": [
+      {
+        "jugador": 10001
+      },
+      {
+        "jugador": 10002
+      },
+      {
+        "jugador": 10003
+      },
+      {
+        "jugador": 10004
+      },
+      {
+        "jugador": 10005
+      },
+      {
+        "jugador": 10006
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #6",
+    "tid": 10007,
+    "admin": 10001,
+    "juego": 106,
+    "fechai": "2021-4-17",
+    "fechaf": "2021-4-19",
+    "hora": "9:14",
+    "limit": 747,
+    "cost": 45,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #7",
+    "tid": 10008,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2021-11-3",
+    "fechaf": "2021-11-5",
+    "hora": "19:26",
+    "limit": 490,
+    "cost": 48,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #8",
+    "tid": 10009,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2021-2-13",
+    "fechaf": "2021-2-15",
+    "hora": "23:44",
+    "limit": 567,
+    "cost": 19,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #9",
+    "tid": 10010,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2021-6-15",
+    "fechaf": "2021-6-17",
+    "hora": "1:39",
+    "limit": 535,
+    "cost": 95,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #10",
+    "tid": 10011,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2021-7-23",
+    "fechaf": "2021-7-25",
+    "hora": "12:56",
+    "limit": 310,
+    "cost": 53,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #11",
+    "tid": 10012,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2021-6-25",
+    "fechaf": "2021-6-27",
+    "hora": "7:52",
+    "limit": 986,
+    "cost": 34,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #12",
+    "tid": 10013,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-25",
+    "fechaf": "2020-12-27",
+    "hora": "14:3",
+    "limit": 461,
+    "cost": 42,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #13",
+    "tid": 10014,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-27",
+    "fechaf": "2020-5-29",
+    "hora": "8:22",
+    "limit": 640,
+    "cost": 74,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #14",
+    "tid": 10015,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-16",
+    "fechaf": "2020-8-18",
+    "hora": "11:45",
+    "limit": 784,
+    "cost": 77,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #15",
+    "tid": 10016,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-4-22",
+    "fechaf": "2020-4-24",
+    "hora": "14:39",
+    "limit": 210,
+    "cost": 46,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #16",
+    "tid": 10017,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-21",
+    "fechaf": "2020-3-23",
+    "hora": "3:16",
+    "limit": 818,
+    "cost": 13,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #17",
+    "tid": 10018,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-6",
+    "fechaf": "2020-12-8",
+    "hora": "3:42",
+    "limit": 495,
+    "cost": 67,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #18",
+    "tid": 10019,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-9-13",
+    "fechaf": "2020-9-15",
+    "hora": "1:46",
+    "limit": 482,
+    "cost": 58,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #19",
+    "tid": 10020,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-24",
+    "fechaf": "2020-6-26",
+    "hora": "16:32",
+    "limit": 399,
+    "cost": 80,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #20",
+    "tid": 10021,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-11-22",
+    "fechaf": "2020-11-24",
+    "hora": "17:23",
+    "limit": 286,
+    "cost": 27,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #21",
+    "tid": 10022,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-25",
+    "fechaf": "2020-6-27",
+    "hora": "14:56",
+    "limit": 241,
+    "cost": 95,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #22",
+    "tid": 10023,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-7-19",
+    "fechaf": "2020-7-21",
+    "hora": "7:27",
+    "limit": 146,
+    "cost": 28,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #23",
+    "tid": 10024,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-9-17",
+    "fechaf": "2020-9-19",
+    "hora": "7:50",
+    "limit": 488,
+    "cost": 91,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #24",
+    "tid": 10025,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-10-25",
+    "fechaf": "2020-10-27",
+    "hora": "12:54",
+    "limit": 921,
+    "cost": 80,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #25",
+    "tid": 10026,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-1-16",
+    "fechaf": "2020-1-18",
+    "hora": "13:25",
+    "limit": 512,
+    "cost": 13,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #26",
+    "tid": 10027,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-8",
+    "fechaf": "2020-8-10",
+    "hora": "6:36",
+    "limit": 683,
+    "cost": 65,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #27",
+    "tid": 10028,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-11-11",
+    "fechaf": "2020-11-13",
+    "hora": "5:43",
+    "limit": 385,
+    "cost": 87,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #28",
+    "tid": 10029,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-7",
+    "fechaf": "2020-3-9",
+    "hora": "9:46",
+    "limit": 648,
+    "cost": 32,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #29",
+    "tid": 10030,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-6",
+    "fechaf": "2020-8-8",
+    "hora": "12:1",
+    "limit": 422,
+    "cost": 51,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #30",
+    "tid": 10031,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-27",
+    "fechaf": "2020-5-29",
+    "hora": "10:27",
+    "limit": 938,
+    "cost": 15,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #31",
+    "tid": 10032,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-21",
+    "fechaf": "2020-6-23",
+    "hora": "18:8",
+    "limit": 376,
+    "cost": 61,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #32",
+    "tid": 10033,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-4-17",
+    "fechaf": "2020-4-19",
+    "hora": "15:6",
+    "limit": 195,
+    "cost": 41,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #33",
+    "tid": 10034,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-19",
+    "fechaf": "2020-5-21",
+    "hora": "6:14",
+    "limit": 496,
+    "cost": 32,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #34",
+    "tid": 10035,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-9-11",
+    "fechaf": "2020-9-13",
+    "hora": "20:17",
+    "limit": 211,
+    "cost": 13,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #35",
+    "tid": 10036,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-11-6",
+    "fechaf": "2020-11-8",
+    "hora": "16:24",
+    "limit": 149,
+    "cost": 72,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #36",
+    "tid": 10037,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-4-15",
+    "fechaf": "2020-4-17",
+    "hora": "7:30",
+    "limit": 31,
+    "cost": 21,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #37",
+    "tid": 10038,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-7-16",
+    "fechaf": "2020-7-18",
+    "hora": "3:45",
+    "limit": 992,
+    "cost": 12,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #38",
+    "tid": 10039,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-16",
+    "fechaf": "2020-2-18",
+    "hora": "17:44",
+    "limit": 277,
+    "cost": 41,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #39",
+    "tid": 10040,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-6",
+    "fechaf": "2020-6-8",
+    "hora": "11:31",
+    "limit": 264,
+    "cost": 88,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #40",
+    "tid": 10041,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-1",
+    "fechaf": "2020-12-3",
+    "hora": "3:56",
+    "limit": 895,
+    "cost": 69,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #41",
+    "tid": 10042,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-19",
+    "fechaf": "2020-12-21",
+    "hora": "13:37",
+    "limit": 138,
+    "cost": 91,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #42",
+    "tid": 10043,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-4-3",
+    "fechaf": "2020-4-5",
+    "hora": "24:44",
+    "limit": 599,
+    "cost": 63,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #43",
+    "tid": 10044,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-6",
+    "fechaf": "2020-12-8",
+    "hora": "7:40",
+    "limit": 826,
+    "cost": 69,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #44",
+    "tid": 10045,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-2",
+    "fechaf": "2020-5-4",
+    "hora": "4:35",
+    "limit": 422,
+    "cost": 18,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #45",
+    "tid": 10046,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-9-7",
+    "fechaf": "2020-9-9",
+    "hora": "7:12",
+    "limit": 605,
+    "cost": 77,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #46",
+    "tid": 10047,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-6",
+    "fechaf": "2020-8-8",
+    "hora": "11:49",
+    "limit": 409,
+    "cost": 72,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #47",
+    "tid": 10048,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-15",
+    "fechaf": "2020-3-17",
+    "hora": "6:6",
+    "limit": 870,
+    "cost": 69,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #48",
+    "tid": 10049,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-28",
+    "fechaf": "2020-5-30",
+    "hora": "15:38",
+    "limit": 616,
+    "cost": 99,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #49",
+    "tid": 10050,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-23",
+    "fechaf": "2020-2-25",
+    "hora": "15:6",
+    "limit": 647,
+    "cost": 34,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #50",
+    "tid": 10051,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-20",
+    "fechaf": "2020-2-22",
+    "hora": "14:45",
+    "limit": 267,
+    "cost": 24,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #51",
+    "tid": 10052,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-9-13",
+    "fechaf": "2020-9-15",
+    "hora": "20:1",
+    "limit": 338,
+    "cost": 70,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #52",
+    "tid": 10053,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-10-10",
+    "fechaf": "2020-10-12",
+    "hora": "22:42",
+    "limit": 376,
+    "cost": 58,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #53",
+    "tid": 10054,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-10-19",
+    "fechaf": "2020-10-21",
+    "hora": "7:40",
+    "limit": 442,
+    "cost": 22,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #54",
+    "tid": 10055,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-7-17",
+    "fechaf": "2020-7-19",
+    "hora": "15:53",
+    "limit": 722,
+    "cost": 71,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #55",
+    "tid": 10056,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-5",
+    "fechaf": "2020-8-7",
+    "hora": "7:2",
+    "limit": 361,
+    "cost": 40,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #56",
+    "tid": 10057,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-2",
+    "fechaf": "2020-8-4",
+    "hora": "17:27",
+    "limit": 840,
+    "cost": 77,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #57",
+    "tid": 10058,
+    "admin": 10001,
+    "juego": "Super Smash Bros. Melee",
+    "fechai": "2020-5-6",
+    "fechaf": "2020-5-8",
+    "hora": "5:50",
+    "limit": 597,
+    "cost": 54,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #58",
+    "tid": 10059,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-21",
+    "fechaf": "2020-12-23",
+    "hora": "12:26",
+    "limit": 323,
+    "cost": 47,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #59",
+    "tid": 10060,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-5",
+    "fechaf": "2020-6-7",
+    "hora": "4:20",
+    "limit": 853,
+    "cost": 50,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #60",
+    "tid": 10061,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-2",
+    "fechaf": "2020-2-4",
+    "hora": "20:5",
+    "limit": 905,
+    "cost": 37,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #61",
+    "tid": 10062,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-2",
+    "fechaf": "2020-12-4",
+    "hora": "23:53",
+    "limit": 332,
+    "cost": 52,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #62",
+    "tid": 10063,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-22",
+    "fechaf": "2020-8-24",
+    "hora": "1:48",
+    "limit": 215,
+    "cost": 53,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #63",
+    "tid": 10064,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-16",
+    "fechaf": "2020-2-18",
+    "hora": "16:23",
+    "limit": 346,
+    "cost": 95,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #64",
+    "tid": 10065,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-11-10",
+    "fechaf": "2020-11-12",
+    "hora": "1:34",
+    "limit": 571,
+    "cost": 26,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #65",
+    "tid": 10066,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-18",
+    "fechaf": "2020-5-20",
+    "hora": "5:32",
+    "limit": 45,
+    "cost": 18,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #66",
+    "tid": 10067,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-2",
+    "fechaf": "2020-8-4",
+    "hora": "18:36",
+    "limit": 991,
+    "cost": 97,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #67",
+    "tid": 10068,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-22",
+    "fechaf": "2020-2-24",
+    "hora": "23:50",
+    "limit": 923,
+    "cost": 18,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #68",
+    "tid": 10069,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-23",
+    "fechaf": "2020-5-25",
+    "hora": "3:18",
+    "limit": 250,
+    "cost": 50,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #69",
+    "tid": 10070,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-9",
+    "fechaf": "2020-5-11",
+    "hora": "23:44",
+    "limit": 99,
+    "cost": 19,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #70",
+    "tid": 10071,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-9-27",
+    "fechaf": "2020-9-29",
+    "hora": "22:49",
+    "limit": 331,
+    "cost": 79,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #71",
+    "tid": 10072,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-1",
+    "fechaf": "2020-5-3",
+    "hora": "17:17",
+    "limit": 68,
+    "cost": 77,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #72",
+    "tid": 10073,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-10-23",
+    "fechaf": "2020-10-25",
+    "hora": "4:25",
+    "limit": 339,
+    "cost": 63,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #73",
+    "tid": 10074,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-26",
+    "fechaf": "2020-5-28",
+    "hora": "1:47",
+    "limit": 237,
+    "cost": 22,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #74",
+    "tid": 10075,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-10-9",
+    "fechaf": "2020-10-11",
+    "hora": "12:25",
+    "limit": 189,
+    "cost": 63,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #75",
+    "tid": 10076,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-22",
+    "fechaf": "2020-8-24",
+    "hora": "22:31",
+    "limit": 451,
+    "cost": 66,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #76",
+    "tid": 10077,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-1-26",
+    "fechaf": "2020-1-28",
+    "hora": "20:19",
+    "limit": 846,
+    "cost": 61,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #77",
+    "tid": 10078,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-16",
+    "fechaf": "2020-3-18",
+    "hora": "3:16",
+    "limit": 749,
+    "cost": 41,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #78",
+    "tid": 10079,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-2",
+    "fechaf": "2020-6-4",
+    "hora": "10:23",
+    "limit": 667,
+    "cost": 96,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #79",
+    "tid": 10080,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-11-17",
+    "fechaf": "2020-11-19",
+    "hora": "18:56",
+    "limit": 218,
+    "cost": 13,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #80",
+    "tid": 10081,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-24",
+    "fechaf": "2020-3-26",
+    "hora": "19:42",
+    "limit": 490,
+    "cost": 40,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #81",
+    "tid": 10082,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-27",
+    "fechaf": "2020-2-29",
+    "hora": "2:32",
+    "limit": 472,
+    "cost": 99,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #82",
+    "tid": 10083,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-11-11",
+    "fechaf": "2020-11-13",
+    "hora": "6:23",
+    "limit": 411,
+    "cost": 36,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #83",
+    "tid": 10084,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-7-7",
+    "fechaf": "2020-7-9",
+    "hora": "1:52",
+    "limit": 685,
+    "cost": 83,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #84",
+    "tid": 10085,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-4-10",
+    "fechaf": "2020-4-12",
+    "hora": "15:39",
+    "limit": 1000,
+    "cost": 87,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #85",
+    "tid": 10086,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-10-14",
+    "fechaf": "2020-10-16",
+    "hora": "9:40",
+    "limit": 844,
+    "cost": 61,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #86",
+    "tid": 10087,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-22",
+    "fechaf": "2020-5-24",
+    "hora": "12:32",
+    "limit": 700,
+    "cost": 88,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #87",
+    "tid": 10088,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-8",
+    "fechaf": "2020-3-10",
+    "hora": "7:2",
+    "limit": 748,
+    "cost": 96,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #88",
+    "tid": 10089,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-22",
+    "fechaf": "2020-3-24",
+    "hora": "4:25",
+    "limit": 15,
+    "cost": 45,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #89",
+    "tid": 10090,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-23",
+    "fechaf": "2020-6-25",
+    "hora": "14:36",
+    "limit": 412,
+    "cost": 65,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #90",
+    "tid": 10091,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-12-7",
+    "fechaf": "2020-12-9",
+    "hora": "7:49",
+    "limit": 591,
+    "cost": 85,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #91",
+    "tid": 10092,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-8-9",
+    "fechaf": "2020-8-11",
+    "hora": "5:51",
+    "limit": 525,
+    "cost": 59,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #92",
+    "tid": 10093,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-27",
+    "fechaf": "2020-2-29",
+    "hora": "4:54",
+    "limit": 831,
+    "cost": 69,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #93",
+    "tid": 10094,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-9-4",
+    "fechaf": "2020-9-6",
+    "hora": "20:30",
+    "limit": 200,
+    "cost": 45,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #94",
+    "tid": 10095,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-11-24",
+    "fechaf": "2020-11-26",
+    "hora": "15:3",
+    "limit": 299,
+    "cost": 14,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #95",
+    "tid": 10096,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-2",
+    "fechaf": "2020-2-4",
+    "hora": "16:51",
+    "limit": 533,
+    "cost": 73,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #96",
+    "tid": 10097,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-3-25",
+    "fechaf": "2020-3-27",
+    "hora": "13:30",
+    "limit": 134,
+    "cost": 88,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #97",
+    "tid": 10098,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-8",
+    "fechaf": "2020-5-10",
+    "hora": "17:6",
+    "limit": 684,
+    "cost": 42,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #98",
+    "tid": 10099,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-6-8",
+    "fechaf": "2020-6-10",
+    "hora": "16:32",
+    "limit": 667,
+    "cost": 56,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #99",
+    "tid": 10100,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-5-17",
+    "fechaf": "2020-5-19",
+    "hora": "19:57",
+    "limit": 687,
+    "cost": 88,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  },
+  {
+    "nombre": "Torneo #100",
+    "tid": 10101,
+    "admin": 10001,
+    "juego": 105,
+    "fechai": "2020-2-26",
+    "fechaf": "2020-2-28",
+    "hora": "9:42",
+    "limit": 567,
+    "cost": 12,
+    "place": "Some street",
+    "plat": "https://image.flaticon.com/icons/png/512/871/871377.png",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/234caf58490547.59fe6cea803d9.png",
+    "cantjug": 1,
+    "gamelist": [
+      {
+        "jugador": 10001
+      }
+    ]
+  }
+]

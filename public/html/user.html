@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Usuario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css"><!-- to do -->
+    <script src="https://kit.fontawesome.com/863c2d9b67.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<nav class="nav flex-column navbar-dark bg-dark nav-pills vertical-menu">
+
+    <div class="navbar-nav nav-fill">
+        <a class="nav-item nav-link disabled" href="#"><i class="fas fa-gamepad fa-2x"></i>
+            <a class="nav-item nav-link active" href="../html/index.html" title="Home"><i class="fas fa-home"></i></a>
+            <a class="nav-item nav-link" id="addTourney" data-toggle="tooltip" title="Crear un torneo" data-target="#"><i
+                    class="fas fa-plus"></i></a>
+            <a class="nav-item nav-link" href="../html/tourneybrowser.html" id="search" title="Torneos"><i class="fas fa-trophy" ></i></i></a>
+            <a class="nav-item nav-link" href="https://www.facebook.com/groups/GamingITESO" title="Facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="nav-item nav-link" href="https://discord.gg/Z37ydDqw" title="Discord"><i
+                    class="fab fa-discord"></i></a>
+            <a class="nav-item nav-link" id="user-status" title="User Acount"><i class="fas fa-user-circle fa-lg"></i></a>
+            <!-- href="#idModalLogin" data-toggle="modal"-->
+        </a>
+    </div>
+
+
+    </nav>
+    <div class="content">
+        <section id="imgHome">
+            <div class="container">
+                <nav class="navbar navbar-dark bg-dark">
+                    <a class="navbar-brand" href="../html/index.html">
+                        <img src="../images/194477.png" width="30" height="30" class="d-inline-block align-top" alt=""
+                            loading="lazy">
+                        ITESO Gaming
+                    </a>
+                </nav>
+            </div>
+        </section>
+
+        <div class="textHome">
+            <div class="container">
+                <div class="row  justify-content-center">
+                    <div class="col-8 mt-2" id="listaUser">
+                        <div class="media col-11 mt-2 border text-center">
+                            <div class="media-left align-self-center mr-3">
+                                <img class="rounded-circle" src="">
+                            </div>
+                            <div class="media-body">
+                                <h4>${user.nick}</h4>
+                                <p>${user.nombre} ${user.apellidos}</p>
+                                <p>Correo: ${user.email}</p>
+                                <p>Fecha de nacimiento: ${user.fecha} </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--<div class="align-self-center text-right bg-dark mx-2">
+                        <div class="row">
+                            <a href="#" class="btn btn-primary mt-2" data-user="" id="btnupdate" data-toggle="modal" data-target="#updateFormModal"><i class="fas fa-pencil-alt edit  "></i></a>
+                        </div>
+                    </div>-->
+
+
+                </div>
+                <div class="row justify-content-center my-3">
+                    <h2>Lista de juegos</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="" id="listGamesAccount"
+                        style="overflow-y:scroll; width:70%; height:125px;  display: flex; flex-direction: column-reverse;">
+                        <!--juego-->
+                        <h4 class="mt-0">Usted no tiene ningun historial de juegos</h4>
+                        <!--/juego-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-secondary">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+
+                <!--Grid column-->
+                <div class="col-md-6">
+
+                    <!-- Video -->
+                    <p></p>
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GTUOwqDPgKI" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-white-50 font-weight-light bg-info">2020 ITESO Gaming •
+            <a class="text-white font-weight-normal" href="./index.html">ItesoGaming.gg</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+     <!-- Modal -->
+  <div class="modal fade" id="updateFormModal" tabindex="-1" role="dialog" aria-labelledby="updateFormModal"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Editar usuario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-6">
+            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre o nombres"
+              aria-describedby="helpId" required>
+          </div>
+          <div class="col-6">
+            <input type="text" name="apellidos" id="app" class="form-control" placeholder="Apellidos"
+              aria-describedby="helpId" required>
+          </div>
+        </div>
+        <input type="password" name="password1" id="password" class="form-control mt-3" placeholder="Contraseña"
+          aria-describedby="helpId" required>
+        <input type="password" name="password2" id="password2" class="form-control mt-3" placeholder="Confirmar contraseña"
+          aria-describedby="helpId" required>
+        <input type="url" name="image" id="imagen" class="form-control mt-3" placeholder="Url de imagen de perfil"
+          aria-describedby="helpId">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-success" id="updatebtn" data-dismiss="modal">Actualizar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+<script src="../js/user.js"></script><!-- to do -->
+
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css"><!-- to do -->
+    <script src="https://kit.fontawesome.com/863c2d9b67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/index.css">
+
+
+</head>
+
+<body>
+<nav class="nav flex-column navbar-dark bg-dark nav-pills vertical-menu">
+
+    <div class="navbar-nav nav-fill">
+        <a class="nav-item nav-link disabled" href="#"><i class="fas fa-gamepad fa-2x"></i>
+            <a class="nav-item nav-link active" href="../html/index.html" title="Home"><i class="fas fa-home"></i></a>
+            <a class="nav-item nav-link" id="addTourney" data-toggle="tooltip" title="Crear un torneo"
+               data-target="#"><i
+                    class="fas fa-plus"></i></a>
+            <a class="nav-item nav-link" href="../html/tourneybrowser.html" id="search" title="Torneos"><i
+                    class="fas fa-trophy"></i></i></a>
+            <a class="nav-item nav-link" href="https://www.facebook.com/groups/GamingITESO" title="Facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="nav-item nav-link" href="https://discord.gg/Z37ydDqw" title="Discord"><i
+                    class="fab fa-discord"></i></a>
+            <a class="nav-item nav-link" id="user-status" title="User Acount"><i
+                    class="fas fa-user-circle fa-lg"></i></a>
+            <!-- href="#idModalLogin" data-toggle="modal"-->
+        </a>
+    </div>
+
+
+</nav>
+
+</nav>
+<div class="content">
+    <section id="imgHome">
+        <div class="container">
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="../html/index.html">
+                    <img src="../images/194477.png" width="30" height="30"
+                         class="d-inline-block align-top" alt="" loading="lazy">
+                    ITESO Gaming
+                </a>
+            </nav>
+        </div>
+    </section>
+</div>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-6">
+            <div class="form-group">
+                <input type="text" name="" id="filterInput" class="form-control" placeholder="Nombre de torneo..."
+                       aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Buscar torneo</small>
+            </div>
+        </div>
+        <div class="col-4">
+        </div>
+    </div>
+    <div class="row  mt-4" id="lista">
+        <div class="media col-8 mt-2" id="modelo">
+            <div class="media-left align-self-center mr-3">
+                <img class="rounded-circle" style="height: 100px; width: 100px"
+                     src="https://images.smash.gg/images/tournament/1102/image-940d52c5a424351b8624d4d4bc777eaf.png?format=auto&width=280&height=280&fit=cover">
+            </div>
+            <div class="media-body">
+                <h4>The Big House 5</h4>
+                <p>Juego: Super Smash Bros. Melee</p>
+                <p>Fecha: 4-12-2020 </p>
+                <p>Costo: 30 </p>
+                <p>Direccion: Online</p>
+            </div>
+            <div class="media-right align-self-center">
+                <div class="row">
+                    <a href="#" class="btn btn-primary edit"><i class="fas fa-search edit  "></i></a>
+                </div>
+                <div class="row">
+                    <a href="#" class="btn btn-primary mt-2"><i class="fas fa-pencil-alt edit  "></i></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="media col-8 mt-2" id="modelo">
+            <div class="media-left align-self-center mr-3">
+                <img class="rounded-circle" style="height: 100px; width: 100px"
+                     src="https://images.smash.gg/images/tournament/1102/image-940d52c5a424351b8624d4d4bc777eaf.png?format=auto&width=280&height=280&fit=cover">
+            </div>
+            <div class="media-body">
+                <h4>The Big House 5</h4>
+                <p>Juego: Super Smash Bros. Ultimate</p>
+                <p>Fecha: 4-12-2020 </p>
+                <p>Costo: 30 </p>
+                <p>Direccion: Online</p>
+            </div>
+            <div class="media-right align-self-center">
+                <div class="row">
+                    <a href="#" class="btn btn-primary edit"><i class="fas fa-search edit  "></i></a>
+                </div>
+                <div class="row">
+                    <a href="#" class="btn btn-primary mt-2"><i class="fas fa-pencil-alt edit  "></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <nav class="row mt-3 " aria-label="Page navigation">
+        <ul class="pagination" id="pagesList">
+            <li class="page-item"><a class="page-link" id="prev" href="#">Previous</a></li>
+            <li class="page-item active "><a class="page-link" id="first" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" id="second" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" id="last" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" id="next" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!--Modal: Login / Register Form-->
+<div class="modal fade" id="idModalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog cascading-modal" role="document">
+        <!--Content-->
+        <div class="modal-content">
+
+            <!--Modal cascading tabs-->
+            <div class="modal-c-tabs">
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+                            Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+                            Register</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panels -->
+                <div class="tab-content">
+                    <!--Panel 7-->
+                    <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+                        <!--Body-->
+                        <div class="modal-body mb-1">
+                            <div class="md-form form-sm mb-5">
+                                <i class="fas fa-envelope prefix"></i>
+                                <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                                <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+                            </div>
+
+                            <div class="md-form form-sm mb-4">
+                                <i class="fas fa-lock prefix"></i>
+                                <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                                <label data-error="wrong" data-success="right" for="modalLRInput11">Your
+                                    password</label>
+                            </div>
+                            <div class="text-center mt-2">
+                                <button id="loginBtn" class="btn btn-primary btn-block">Login<i class="fas fa-sign-in ml-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!--Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close
+                            </button>
+                        </div>
+
+                    </div>
+                    <!--/.Panel 7-->
+
+                    <!--Panel 8-->
+                    <div class="tab-pane fade" id="panel8" role="tabpanel">
+                        <!--Body-->
+                        <div class="modal-body mx-1">
+                            <div class="md-form form-sm mb-2">
+                                <i class="fas fa-user"></i>
+                                <input type="name" id="modalLRInput12" class="form-control form-control-sm validate inputRegister" required>
+                                <label data-error="wrong" data-success="right" for="modalLRInput12">Your nick</label>
+                            </div>
+                            <div class="md-form form-sm mb-2">
+                                <i class="fas fa-user"></i>
+                                <input type="name" id="modalLRInput12" class="form-control form-control-sm validate inputRegister" required>
+                                <label data-error="wrong" data-success="right" for="modalLRInput12">Your name</label>
+                            </div>
+                            <div class="md-form form-sm mb-2">
+                                <i class="fas fa-user"></i>
+                                <input type="last-name" id="modalLRInput12" class="form-control form-control-sm validate inputRegister" required>
+                                <label data-error="wrong" data-success="right" for="modalLRInput12">Your last name</label>
+                            </div>
+                            <div class="md-form form-sm mb-2">
+                                <i class="fas fa-envelope prefix"></i>
+                                <input type="email" id="modalLRInput12" class="form-control form-control-sm validate inputRegister" required>
+                                <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+                            </div>
+                            <div class="md-form form-sm mb-2">
+                                <i class="fas fa-lock prefix"></i>
+                                <input type="password" id="password1" class="form-control form-control-sm validate inputRegister" required>
+                                <label data-error="wrong" data-success="right" for="modalLRInput13">Your
+                                    password</label>
+                            </div>
+                            <div class="md-form form-sm mb-2">
+                                <i class="fas fa-lock prefix"></i>
+                                <input type="password" id="password2" class="form-control form-control-sm validate inputRegister" required>
+                                <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat
+                                    password</label>
+                            </div>
+                            <div class="text-center form-sm mt-2">
+                                <button class="btn btn-primary btn-block" id="createUserBtn" disabled>Sign up<i class="fas fa-sign-in ml-1"></i>
+                                </button>
+                            </div>
+                            <div class="response" id="responseMSG">
+
+                            </div>
+                        </div>
+                        <!--Footer-->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close
+                            </button>
+                        </div>
+                    </div>
+                    <!--/.Panel 8-->
+                </div>
+
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!--Modal: Login / Register Form-->
+
+
+<!-- Modal Profile-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="rounded-circle userData" style="width: 150px;height: 150px"
+                                 src="https://randomuser.me/api/portraits/men/4.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title userData">OscarElCrack777</h5>
+                                <p class="card-text"><small class="text-muted userData">Oscar Electronica</small></p>
+                                <p class="card-text userData">oscar@iteso.mx</p>
+                            </div>
+                        </div>
+                        <!-- lista de juegos-->
+                        <div id="listGamesOfUser"
+                             style="overflow-y:scroll; width:500px; height:125px;  display: flex; flex-direction: column-reverse;">
+                            <!--juego-->
+                            <h4 class="mt-0">Usted no tiene ningun historial de juegos</h4>
+                            <!--/juego-->
+                        </div>
+                        <!-- /lista de juegos-->
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-primary btn-lg m-2" href="../html/user.html" role="button">Editar Perfil</a>
+
+                    <button type="button" class="btn btn-secondary btn-lg m-2">Log out</button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Profile-->
+
+<p></p>
+<!-- Footer -->
+<footer class="page-footer font-small bg-secondary">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+
+            <!--Grid column-->
+            <div class="col-md-6">
+
+                <!-- Video -->
+                <p></p>
+                <div class="embed-responsive embed-responsive-16by9 mb-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GTUOwqDPgKI" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-white-50 font-weight-light bg-info">2020 ITESO Gaming •
+        <a class="text-white font-weight-normal" href="./index.html">ItesoGaming.gg</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+
+<script src="../js/tourneybrowser.js"></script>
+
+</body>
+</html>

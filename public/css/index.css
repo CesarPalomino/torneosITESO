@@ -1,0 +1,77 @@
+.vertical-menu {
+    width: 50px;
+    height: 100vh;
+    float: left;
+    position: fixed;
+}
+
+
+.media {
+    border: 1px solid #d5dbdd;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.04);
+    background: #fff;
+}
+
+
+/* .vertical-menu a{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}*/
+
+h1 {
+    color: rgb(109, 103, 134);
+    text-shadow: #555 2px 2px 3px;
+
+}
+
+/*h1 { color: #333333; font-family: 'Bitter', serif; font-size: 50px; font-weight: normal; line-height: 54px; margin: 0 0 54px; }*/
+
+.vertical-menu a:hover {
+    background-color: #000;
+}
+
+
+.navStil {
+    background-color: rgba(255, 255, 255, .8) !important;
+}
+
+.content {
+    margin-left: 4%;
+}
+
+#imgHome {
+    background-image: url('../images/ITESOGAMING.jpg'); /* TO DO */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    min-height: 70vh;
+
+}
+
+.textHome {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.carousel-item img {
+    height: 450px !important;
+    width: 850px !important;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar un torneo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css"><!-- to do -->
+    <script src="https://kit.fontawesome.com/863c2d9b67.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<nav class="nav flex-column navbar-dark bg-dark nav-pills vertical-menu">
+
+    <div class="navbar-nav nav-fill">
+        <a class="nav-item nav-link disabled" href="#"><i class="fas fa-gamepad fa-2x"></i>
+            <a class="nav-item nav-link active" href="../html/index.html" title="Home"><i class="fas fa-home"></i></a>
+            <a class="nav-item nav-link" id="addTourney" data-toggle="tooltip" title="Crear un torneo" data-target="#"><i
+                    class="fas fa-plus"></i></a>
+            <a class="nav-item nav-link" href="../html/tourneybrowser.html" id="search" title="Torneos"><i class="fas fa-trophy" ></i></i></a>
+            <a class="nav-item nav-link" href="https://www.facebook.com/groups/GamingITESO" title="Facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a class="nav-item nav-link" href="https://discord.gg/Z37ydDqw" title="Discord"><i
+                    class="fab fa-discord"></i></a>
+            <a class="nav-item nav-link" id="user-status" title="User Acount"><i class="fas fa-user-circle fa-lg"></i></a>
+            <!-- href="#idModalLogin" data-toggle="modal"-->
+        </a>
+    </div>
+
+
+</nav>
+<div class="content">
+    <section id="imgHome">
+        <div class="container">
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="../html/index.html">
+                  <img src="../images/194477.png" width="30" height="30"
+                    class="d-inline-block align-top" alt="" loading="lazy">
+                  ITESO Gaming
+                </a>
+              </nav>
+        </div>
+    </section>
+
+    <div class="textHome">
+        <h1>Editar un torneo</h1>
+        <form class="needs-validation">
+            <div class="form-group">
+                <label>Juego:</label>
+                <select class="custom-select custom-select-lg mb-3" size="1" id="torneoGame" required>
+                    <option value="">Escoge que juego se jugara en tu torneo...</option>
+                    <option value="dbz">Dragon Ball FighterZ</option>
+                    <option value="hs">HearthStone</option>
+                    <option value="lol">League Of Legends</option>
+                    <option value="ow">Overwatch</option>
+                    <option value="ssbm">Super Smash Bros. Melee</option>
+                    <option value="ssbu">Super Smash Bros. Ultimate</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Nombre del torneo:</label>
+                <input type="text" class="form-control" id="nomTorneo" placeholder="Ingresa el nombre del torneo..."
+                       required>
+                <div class="invalid-tooltip">
+                    Ingrese un nombre valido
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label># maximo de jugadores</label>
+                    <input type="number" class="form-control" id="numTorneo" placeholder="Ingrese numero de jugadores"
+                           required>
+                    <div class="invalid-tooltip">
+                        Ingrese numero de jugadores
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label>Fecha de inicio</label>
+                    <input type="date" class="form-control" id="fechaTorneo" required>
+                    <div class="invalid-tooltip">
+                        Ingrese una fecha valida
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label>Fecha de terminacion</label>
+                    <input type="date" class="form-control" id="fechaTorneo" required>
+                    <div class="invalid-tooltip">
+                        Ingrese una fecha valida
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label>Hora</label>
+                    <input type="time" class="form-control" id="horaTorneo" required>
+                    <div class="invalid-tooltip">
+                        Ingrese una hora valida
+                    </div>
+                </div>
+                <div class="col">
+                    <label>Escoge un logo para tu torneo...</label>
+                    <br>
+                    <input type="file" id="validatedCustomFile" required>
+                    <div class="invalid-feedback">No se escogio un archivo valido</div>
+                </div>
+                <div class="col">
+                    <label>Direccion (puedes poner online)</label>
+                    <input type="text" class="form-control" id="dirTorneo" placeholder="indique la direccion del torneo"
+                           required>
+                    <div class="invalid-tooltip">No es valido</div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Upgrade form</button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal Profile-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img class="rounded-circle width: 40px; height: 40px;"
+                src="https://randomuser.me/api/portraits/men/4.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title userData">OscarElCrack777</h5>
+                <p class="card-text"><small class="text-muted userData">Oscar Electronica</small></p>
+                <p class="card-text userData">oscar@iteso.mx</p>
+                <p class="card-text userData">05/03/1998</p>
+              </div>
+            </div>
+            <!-- lista de juegos-->
+            <div id="listGamesOfUser"
+              style="overflow-y:scroll; width:500px; height:125px;  display: flex; flex-direction: column-reverse;">
+              <!--juego-->
+              <div class="media">
+                <img style="width: 30px; height: 30px;"
+                  src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DragonBallFighterZ_image1600w.jpg"
+                  class="mr-3" alt="...">
+                <div class="media-body border-1">
+                  <h5 class="mt-0">Dragon Ball Fighterz</h5> Puntaje: 10
+                </div>
+              </div>
+              <!--/juego-->
+            </div>
+            <!-- /lista de juegos-->
+          </div>
+        </div>
+        <div class="text-center">
+          <a class="btn btn-primary btn-lg m-2" href="../html/user.html" role="button">Editar Perfin</a>
+
+          <button type="button" class="btn btn-secondary btn-lg m-2">Log out</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Profile-->
+  <p></p>
+  <!-- Footer -->
+  <footer class="page-footer font-small bg-secondary">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <!-- Video -->
+          <p></p>
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GTUOwqDPgKI" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-white-50 font-weight-light bg-info">2020 ITESO Gaming •
+      <a class= "text-white font-weight-normal" href="./index.html">ItesoGaming.gg</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+</script>
+<script src="../js/tourneys.js"></script><!-- to do -->
+</html>

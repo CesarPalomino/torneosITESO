@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Dragon Ball FighterZ",
+    "value": "dbz",
+    "gid": 101,
+    "image": "https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DragonBallFighterZ_image1600w.jpg"
+  },
+  {
+    "nombre": "HearthStone",
+    "value": "hs",
+    "gid": 102,
+    "image": "https://play-lh.googleusercontent.com/kj3JcyCH1VUwA_kXux8cfUkl6qDeSTRRIPrNRXoNkgWoeztdZ92LIZjKE5qERDt9j2A=w720-h310"
+  },
+  {
+    "nombre": "League Of Legends",
+    "value": "lol",
+    "gid": 103,
+    "image": "https://i.blogs.es/e1a040/lol/840_560.jpg"
+  },
+  {
+    "nombre": "Overwatch",
+    "value": "ow",
+    "gid": 104,
+    "image": "https://i.ytimg.com/vi/qRc1nPG7qXA/maxresdefault.jpg"
+  },
+  {
+    "nombre": "Super Smash Bros. Melee",
+    "value": "ssbm",
+    "gid": 105,
+    "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/07/20/15952523362640.png"
+  },
+  {
+    "nombre": "Super Smash Bros. Ultimate",
+    "value": "ssbu",
+    "gid": 106,
+    "image": "https://www.smashbros.com/assets_v2/img/movie/20180613_1.jpg"
+  }
+]
